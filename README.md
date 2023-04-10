@@ -1,7 +1,7 @@
 # compose-splash-screens
 
 <div id="header" align="center">
-  <a href="https://jitpack.io/#ygorluizfrazao/compose-audio-controls"><img src="https://jitpack.io/v/ygorluizfrazao/compose-audio-controls.svg" alt="Version Name"/></a>
+  <a href="https://jitpack.io/#ygorluizfrazao/compose-splash-screens"><img src="https://jitpack.io/v/ygorluizfrazao/compose-splash-screens.svg" alt="Version Name"/></a>
   <img src="https://komarev.com/ghpvc/?username=ygorluizfrazao&style=flat-square&color=blue" alt=""/>
 </div>
 <div id="badges" align="center">
@@ -12,6 +12,29 @@
     <img src="https://img.shields.io/badge/Kofi-blue?style=flat&logo=kofi&logoColor=white" alt="Youtube Badge"/>
   </a>
 </div>
+
+## How can i use it?
+
+Just add this to your *settings.gradle*:
+
+```groovy
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        maven { url 'https://jitpack.io' }
+    }
+}
+```
+
+Then, in your *build.gradle*:
+
+```groovy
+	dependencies {
+	        implementation 'com.github.ygorluizfrazao:compose-splash-screens:1.0.0-alpha01'
+	}
+```
 
 ## What is it?
 An easy and intuitive way to provide a splash screen in your [Jetpack Compose App]([https://developer.android.com/jetpack/compose?gclid=CjwKCAjw586hBhBrEiwAQYEnHZOEMECdqsc2PVuxrptarSrEil2VmFCsftyhI_bE0_jgMYzocISQ5hoCTZYQAvD_BwE&gclsrc=aw.ds]).
