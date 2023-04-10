@@ -23,8 +23,10 @@ Think with me:
 
 When do you want a Splash Screen?
 - When the *app launches*.
+
 After that, you will need to display it again?
 - *No*.
+
 When your app goes into background and returns, do you want to show a splash screen again?
 - *No*.
 
